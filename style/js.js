@@ -1,5 +1,5 @@
 
-    // Función para convertir campos de texto a mayúsculas al perder el foco
+    // Función para convertir campos de texto a mayúsculas
     function convertirAMayusculas(inputElement) {
         inputElement.value = inputElement.value.toUpperCase();
     }
@@ -10,7 +10,6 @@
         const password2 = document.getElementById("password2").value;
         const errorPassword2 = document.getElementById("error_password2");
 
-        //*****Preguntar como hacer oa que te lo detecte segun lo escribes.....*****
         if (password1.length < 8 || password2.length < 8) {
             errorPassword2.innerHTML = "Las contraseñas deben tener al menos 8 caracteres.";
             errorPassword2.style.display = "block";
