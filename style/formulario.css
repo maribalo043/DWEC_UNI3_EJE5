@@ -81,5 +81,18 @@ input:invalid {
   input:valid {
 	border: 2px solid black;
   }
-
+/* En un archivo CSS o dentro de la etiqueta <style> en el encabezado de tu HTML */
+#viewPassword {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+  }
+  
+  #password {
+	padding: 10px;
+	margin: 5px 0;
+  }
+  
 

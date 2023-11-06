@@ -59,6 +59,35 @@
             convertirAMayusculas(this);
         });
     }
+    /*BOTON PARA VER LAS CONTRASEÑAS */
+    let password = document.getElementById('password');
+    let viewPassword = document.getElementById('viewPassword');
+    let click = false;
 
+    viewPassword.addEventListener('click', (e)=>{
+        if(!click){
+            password.type = 'text'
+            click = true
+        }else if(click){
+            password.type = 'password'
+            click = false
+        }
+    })
+
+    var password2 = document.getElementById('password2');
+    let viewPassword2 = document.getElementById('viewPassword2');
+    let click2 = false;
+
+    viewPassword2.addEventListener('click', (e)=>{
+        if(!click2){
+            password2.type = 'text'
+            click2 = true
+        }else if(click2){
+            password2.type = 'password'
+            click2 = false
+        }
+    })
+    
+    
     document.getElementById("enviar").addEventListener("click", submitForm);
 
