@@ -5,6 +5,7 @@
     }
 
     // Función para validar las contraseñas
+    //para validar las contraseñas en el momento es aqui pensar mañana en clase
     function validarContraseñas() {
         const password1 = document.getElementById("password").value;
         const password2 = document.getElementById("password2").value;
